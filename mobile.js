@@ -169,7 +169,7 @@ function init() {
 }
 
 function startARMode(position) {
-  alert(`x: ${position.x}, y: ${position.y}, z: ${position.z}`)
+  //alert(`x: ${position.x}, y: ${position.y}, z: ${position.z}`)
   ARMode = true;
   app.camera.fov = Q3D.Config.AR.FOV;
   app.camera.updateProjectionMatrix();
